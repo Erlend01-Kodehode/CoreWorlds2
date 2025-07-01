@@ -1,0 +1,120 @@
+{
+  "factions": {
+    "hegemony": {
+      "id": 0,
+      "name": {
+        "short": "Hegemony",
+        "long": "The Hegemony",
+        "prefix": "HSS",
+        "colour": [245, 150, 30, 255]
+      },
+      "leader": {
+        "title": "High Hegemon",
+        "leader_name": "Baikal Daud",
+        "leader_f_name": "Baikal",
+        "leader_l_name": "Daud",
+        "portrait": "Image Link",
+        "flavour_text": "No reserves? Look around you! There are a thousand space-capable ships in the civilian docks and a billion citizens in the arcologies. We need only open the stockpiles and give them weapons before the invasion arrives. \n\n-Baikal Daud at the Defense of Chicomoztoc"
+      },
+      "flavour_text": "The Hegemony is a martial successor state to the Domain formed by a 'lost legion' trapped in a backwater system by the collapse of the Domain gate network. Built upon a creative interpretation of protocols which indefinitely extends Domain-style martial law, the founders of the Hegemony believed that the overriding cause of restoring the Domain and therefore stability, peace, and prosperity to the Sector and indeed the entire galaxy must come before certain niceties of human rights. The survival of humanity is at stake and it is only the discipline of the Hegemony military that protects worlds where some semblance of the normalcy of human civilization can be nurtured. Anything that threatens the Great Cause must be neutralized; if a few activists must be discouraged for the greater good, so be it. \n\nCivilian hierarchies exist to govern the planets and stations under Hegemony rule but are entirely subordinate to the military. The specifics of civilian organization varies between worlds, as was Domain policy. When in doubt, the Hegemony applies a modified Domain-era colonial charter to dictate political organization. This standard-charter civilian hierarchy is generally elected, however as per martial law valid candidates must be approved by the local military authority. Exceptional times require exceptional measures, yet still the Hegemony fosters the flickering flame of galactic democracy under the same principles that founded the Domain.",
+      "control": {
+        "systems": [
+          "Arcadia",
+          "Aztlan",
+          "Corvus",
+          "Galatia",
+          "Naraka",
+          "Samarra",
+          "Valhalla"
+        ]
+      },
+      "music": {
+        "split_tracks": true,
+        "market": {
+          "market_hostile_0": "Audio File",
+          "market_hostile_1": "Audio File",
+          "market_neutral_0": "Audio File",
+          "market_neutral_1": "Audio File",
+          "market_friendly_0": "Audio File",
+          "market_friendly_1": "Audio File"
+        },
+        "encounter": {
+          "encounter_hostile": "Audio File",
+          "encounter_neutral": "Audio File",
+          "encounter_friendly": "Audio File"
+        }
+      },
+      "graphics": {
+        "flag_big": "Image File",
+        "flag_crest": "Image File"
+      },
+      "subfactions": {
+        "subfactions": false,
+        "dummy": {
+          "name": "Iron Shell",
+          "colour": [245, 150, 30, 255],
+          "prefix": "HSS",
+          "flavour_text": "String"
+        }
+      }
+    },
+    "persean_league": {
+      "id": 0,
+      "name": {
+        "short": "Persean League",
+        "long": "The Persean League",
+        "prefix": "PLS",
+        "colour": [220, 185, 55, 255]
+      },
+      "leader": {
+        "title": "Prime Demarchon",
+        "leader_name": "Reynard Hannan",
+        "leader_f_name": "Reynard",
+        "leader_l_name": "Hannan",
+        "portrait": "Image Link",
+        "flavour_text": "The League, captain, is everything! It is everything to me, to Gens Hannan. Our excellence blossoms within the freedom of the League. I have earned the fruit and I have built them to towering heights - look upon proud Kazeron. No mere backwater, it is a barycenter of power! \n\n-Reynard Hannan to the player"
+      },
+      "flavour_text": "An alliance formed to counter Hegemony domination of the Sector. Members of the League don't necessarily agree on all issues, domestic or otherwise, and may even come into armed conflict with one another. But the League is united when it comes to the Hegemony who they consider to be illegitimately enforcing martial law in the name of the Domain, a dead political entity. The League, by its laws, unites against other external threats such as particularly meddlesome megacorporations, warlords, and the Luddic Path. \n\nThe Persean League is not intrinsically egalitarian or for individual freedom as-such – the purpose of the League is freedom of the constituent polities with any matters of internal politics of those polities to be left to their own devices. While the Domain might have intervened against the domestic policies of the worlds it ruled, the League specifically forbids such intervention.",
+      "control": {
+        "systems": [
+          "Arcadia",
+          "Aztlan",
+          "Corvus",
+          "Galatia",
+          "Naraka",
+          "Samarra",
+          "Valhalla"
+        ]
+      },
+      "music": {
+        "split_tracks": true,
+        "market": {
+          "market_hostile_0": "Audio File",
+          "market_hostile_1": "Audio File",
+          "market_neutral_0": "Audio File",
+          "market_neutral_1": "Audio File",
+          "market_friendly_0": "Audio File",
+          "market_friendly_1": "Audio File"
+        },
+        "encounter": {
+          "encounter_hostile": "Audio File",
+          "encounter_neutral": "Audio File",
+          "encounter_friendly": "Audio File"
+        }
+      },
+      "graphics": {
+        "flag_big": "Image File",
+        "flag_crest": "Image File"
+      },
+      "subfactions": {
+        "subfactions": false,
+        "dummy": {
+          "name": "Kazeron Navarchy",
+          "colour": [220, 185, 55, 255],
+          "prefix": "PLS",
+          "flavour_text": "String"
+        }
+      }
+    }
+  }
+}

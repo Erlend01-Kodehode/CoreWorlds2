@@ -1,0 +1,61 @@
+{
+  "systems": {
+    "system1": {
+      "id": 0,
+      "name": "Askonia",
+      "type": "Red Giant",
+      "markets": {
+        "market1": {
+          "name": "Sindria",
+          "designation": "Askonia I",
+          "owner": "Sindrian Diktat",
+          "type": "Rocky Metallic World",
+          "population": 7,
+          "graphic": "Image Link",
+          "industry": "Image Link",
+          "flavour_text": "String"
+        },
+        "market2": {
+          "name": "Cruor",
+          "designation": "Askonia II-A",
+          "owner": "Sindrian Diktat",
+          "type": "Rocky Unstable World",
+          "population": 5,
+          "graphic": "Image Link",
+          "industry": "Image Link",
+          "flavour_text": "String"
+        },
+        "market3": {
+          "name": "Volturn",
+          "designation": "Askonia II-B",
+          "owner": "Sindrian Diktat",
+          "type": "Water World",
+          "population": 7,
+          "graphic": "Image Link",
+          "industry": "Image Link",
+          "flavour_text": "String"
+        },
+        "market4": {
+          "name": "Nortia",
+          "designation": "Askonia II-L4",
+          "owner": "Independent",
+          "type": "Barren-Bombarded World",
+          "population": 4,
+          "graphic": "Image Link",
+          "industry": "Image Link",
+          "flavour_text": "String"
+        },
+        "market5": {
+          "name": "Umbra",
+          "designation": "Askonia III",
+          "owner": "Pirates",
+          "type": "Rocky Ice World",
+          "population": 5,
+          "graphic": "Image Link",
+          "industry": "Image Link",
+          "flavour_text": "String"
+        }
+      }
+    }
+  }
+}
