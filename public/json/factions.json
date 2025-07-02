@@ -5,7 +5,7 @@
         "short": "Hegemony",
         "long": "The Hegemony",
         "prefix": "HSS",
-        "colour": [245, 150, 30, 255]
+        "colour": [245, 150, 30]
       },
       "leader": {
         "title": "High Hegemon",
@@ -39,11 +39,18 @@
       },
       "subfactions": {
         "subfactions": false,
-        "dummy": {
+        "sub1": {
           "name": "Iron Shell",
-          "colour": [245, 150, 30, 255],
+          "colour": [245, 150, 30],
           "prefix": "HSS",
-          "flavour_text": "String"
+          "flavour_text": "String",
+          "leader": {
+            "title": "High Hegemon",
+            "leader_name": "Baikal Daud",
+            "leader_f_name": "Baikal",
+            "leader_l_name": "Daud",
+            "portrait": "Image Link"
+          }
         }
       }
     },
@@ -52,7 +59,7 @@
         "short": "Persean League",
         "long": "The Persean League",
         "prefix": "PLS",
-        "colour": [220, 185, 55, 255]
+        "colour": [220, 185, 55]
       },
       "leader": {
         "title": "Prime Demarchon",
@@ -86,11 +93,314 @@
       },
       "subfactions": {
         "subfactions": false,
-        "dummy": {
+        "sub1": {
           "name": "Kazeron Navarchy",
-          "colour": [220, 185, 55, 255],
+          "colour": [220, 185, 55],
           "prefix": "PLS",
-          "flavour_text": "String"
+          "flavour_text": "String",
+          "leader": {
+            "title": "Prime Demarchon",
+            "leader_name": "Reynard Hannan",
+            "leader_f_name": "Reynard",
+            "leader_l_name": "Hannan",
+            "portrait": "Image Link"
+          }
+        }
+      }
+    },
+    "luddic_church": {
+      "name": {
+        "short": "Luddic Church",
+        "long": "The Church of Galactic Redemption",
+        "prefix": "CGR",
+        "colour": [5, 115, 10]
+      },
+      "leader": {
+        "title": "Arch-Curate",
+        "leader_name": "Sophronia Jaspis",
+        "leader_f_name": "Sophronia",
+        "leader_l_name": "Jaspis",
+        "portrait": "Image Link",
+        "flavour_text": "The League, captain, is everything! It is everything to me, to Gens Hannan. Our excellence blossoms within the freedom of the League. I have earned the fruit and I have built them to towering heights - look upon proud Kazeron. No mere backwater, it is a barycenter of power! \n\n-Reynard Hannan to the player"
+      },
+      "flavour_text": "An alliance formed to counter Hegemony domination of the Sector. Members of the League don't necessarily agree on all issues, domestic or otherwise, and may even come into armed conflict with one another. But the League is united when it comes to the Hegemony who they consider to be illegitimately enforcing martial law in the name of the Domain, a dead political entity. The League, by its laws, unites against other external threats such as particularly meddlesome megacorporations, warlords, and the Luddic Path. \n\nThe Persean League is not intrinsically egalitarian or for individual freedom as-such - the purpose of the League is freedom of the constituent polities with any matters of internal politics of those polities to be left to their own devices. While the Domain might have intervened against the domestic policies of the worlds it ruled, the League specifically forbids such intervention.",
+      "capital": "Gilead",
+      "music": {
+        "split_tracks": true,
+        "market": {
+          "market_hostile_0": "Audio File",
+          "market_hostile_1": "Audio File",
+          "market_neutral_0": "Audio File",
+          "market_neutral_1": "Audio File",
+          "market_friendly_0": "Audio File",
+          "market_friendly_1": "Audio File"
+        },
+        "encounter": {
+          "encounter_hostile": "Audio File",
+          "encounter_neutral": "Audio File",
+          "encounter_friendly": "Audio File"
+        }
+      },
+      "graphics": {
+        "flag_big": "Image File",
+        "flag_crest": "Image File"
+      },
+      "subfactions": {
+        "subfactions": true,
+        "sub1": {
+          "name": "Knights of Ludd",
+          "colour": [5, 115, 10],
+          "prefix": "CGR",
+          "flavour_text": "String",
+          "leader": {
+            "title": "Excubitor Orbis",
+            "leader_name": "Gideon Oak",
+            "leader_f_name": "Gideon",
+            "leader_l_name": "Oak",
+            "portrait": "Image Link"
+          }
+        }
+      }
+    },
+    "tri_tachyon": {
+      "name": {
+        "short": "Tri-Tachyon",
+        "long": "The Tri-Tachyon Corporation",
+        "prefix": "TTS",
+        "colour": [135, 206, 255]
+      },
+      "leader": {
+        "title": "Chief Executive Officer",
+        "leader_name": "Artemisia Sun",
+        "leader_f_name": "Artemisia",
+        "leader_l_name": "Sun",
+        "portrait": "Image Link",
+        "flavour_text": "The League, captain, is everything! It is everything to me, to Gens Hannan. Our excellence blossoms within the freedom of the League. I have earned the fruit and I have built them to towering heights - look upon proud Kazeron. No mere backwater, it is a barycenter of power! \n\n-Reynard Hannan to the player"
+      },
+      "flavour_text": "An alliance formed to counter Hegemony domination of the Sector. Members of the League don't necessarily agree on all issues, domestic or otherwise, and may even come into armed conflict with one another. But the League is united when it comes to the Hegemony who they consider to be illegitimately enforcing martial law in the name of the Domain, a dead political entity. The League, by its laws, unites against other external threats such as particularly meddlesome megacorporations, warlords, and the Luddic Path. \n\nThe Persean League is not intrinsically egalitarian or for individual freedom as-such - the purpose of the League is freedom of the constituent polities with any matters of internal politics of those polities to be left to their own devices. While the Domain might have intervened against the domestic policies of the worlds it ruled, the League specifically forbids such intervention.",
+      "capital": "Eochu Bres",
+      "music": {
+        "split_tracks": true,
+        "market": {
+          "market_hostile_0": "Audio File",
+          "market_hostile_1": "Audio File",
+          "market_neutral_0": "Audio File",
+          "market_neutral_1": "Audio File",
+          "market_friendly_0": "Audio File",
+          "market_friendly_1": "Audio File"
+        },
+        "encounter": {
+          "encounter_hostile": "Audio File",
+          "encounter_neutral": "Audio File",
+          "encounter_friendly": "Audio File"
+        }
+      },
+      "graphics": {
+        "flag_big": "Image File",
+        "flag_crest": "Image File"
+      },
+      "subfactions": {
+        "subfactions": false,
+        "sub1": {
+          "name": "Corporate Board",
+          "colour": [135, 206, 255],
+          "prefix": "TTS",
+          "flavour_text": "String",
+          "leader": {
+            "title": "Chief Executive Officer",
+            "leader_name": "Artemisia Sun",
+            "leader_f_name": "Artemisia",
+            "leader_l_name": "Sun",
+            "portrait": "Image Link"
+          }
+        }
+      }
+    },
+    "sindrian_diktat": {
+      "name": {
+        "short": "Sindrian Diktat",
+        "long": "The Sindrian Diktat",
+        "prefix": "SDS",
+        "colour": [180, 0, 120]
+      },
+      "leader": {
+        "title": "Supreme Executor",
+        "leader_name": "Philip Andrada",
+        "leader_f_name": "Philip",
+        "leader_l_name": "Andrada",
+        "portrait": "Image Link",
+        "flavour_text": "The League, captain, is everything! It is everything to me, to Gens Hannan. Our excellence blossoms within the freedom of the League. I have earned the fruit and I have built them to towering heights - look upon proud Kazeron. No mere backwater, it is a barycenter of power! \n\n-Reynard Hannan to the player"
+      },
+      "flavour_text": "An alliance formed to counter Hegemony domination of the Sector. Members of the League don't necessarily agree on all issues, domestic or otherwise, and may even come into armed conflict with one another. But the League is united when it comes to the Hegemony who they consider to be illegitimately enforcing martial law in the name of the Domain, a dead political entity. The League, by its laws, unites against other external threats such as particularly meddlesome megacorporations, warlords, and the Luddic Path. \n\nThe Persean League is not intrinsically egalitarian or for individual freedom as-such - the purpose of the League is freedom of the constituent polities with any matters of internal politics of those polities to be left to their own devices. While the Domain might have intervened against the domestic policies of the worlds it ruled, the League specifically forbids such intervention.",
+      "capital": "Sindria",
+      "music": {
+        "split_tracks": true,
+        "market": {
+          "market_hostile_0": "Audio File",
+          "market_hostile_1": "Audio File",
+          "market_neutral_0": "Audio File",
+          "market_neutral_1": "Audio File",
+          "market_friendly_0": "Audio File",
+          "market_friendly_1": "Audio File"
+        },
+        "encounter": {
+          "encounter_hostile": "Audio File",
+          "encounter_neutral": "Audio File",
+          "encounter_friendly": "Audio File"
+        }
+      },
+      "graphics": {
+        "flag_big": "Image File",
+        "flag_crest": "Image File"
+      },
+      "subfactions": {
+        "subfactions": true,
+        "sub1": {
+          "name": "Lion's Guard",
+          "colour": [180, 0, 120],
+          "prefix": "LGS",
+          "flavour_text": "String",
+          "leader": {
+            "title": "Supreme Executor",
+            "leader_name": "Philip Andrada",
+            "leader_f_name": "Philip",
+            "leader_l_name": "Andrada",
+            "portrait": "Image Link"
+          }
+        }
+      }
+    },
+    "independent": {
+      "name": {
+        "short": "Independent",
+        "long": "The Independents",
+        "prefix": "ISS",
+        "colour": [150, 150, 150]
+      },
+      "leader": {
+        "title": false,
+        "leader_name": false,
+        "leader_f_name": false,
+        "leader_l_name": false,
+        "portrait": false,
+        "flavour_text": "The League, captain, is everything! It is everything to me, to Gens Hannan. Our excellence blossoms within the freedom of the League. I have earned the fruit and I have built them to towering heights - look upon proud Kazeron. No mere backwater, it is a barycenter of power! \n\n-Reynard Hannan to the player"
+      },
+      "flavour_text": "An alliance formed to counter Hegemony domination of the Sector. Members of the League don't necessarily agree on all issues, domestic or otherwise, and may even come into armed conflict with one another. But the League is united when it comes to the Hegemony who they consider to be illegitimately enforcing martial law in the name of the Domain, a dead political entity. The League, by its laws, unites against other external threats such as particularly meddlesome megacorporations, warlords, and the Luddic Path. \n\nThe Persean League is not intrinsically egalitarian or for individual freedom as-such - the purpose of the League is freedom of the constituent polities with any matters of internal politics of those polities to be left to their own devices. While the Domain might have intervened against the domestic policies of the worlds it ruled, the League specifically forbids such intervention.",
+      "capital": false,
+      "music": {
+        "split_tracks": true,
+        "market": {
+          "market_hostile_0": "Audio File",
+          "market_hostile_1": "Audio File",
+          "market_neutral_0": "Audio File",
+          "market_neutral_1": "Audio File",
+          "market_friendly_0": "Audio File",
+          "market_friendly_1": "Audio File"
+        },
+        "encounter": {
+          "encounter_hostile": "Audio File",
+          "encounter_neutral": "Audio File",
+          "encounter_friendly": "Audio File"
+        }
+      },
+      "graphics": {
+        "flag_big": "Image File",
+        "flag_crest": "Image File"
+      },
+      "subfactions": {
+        "subfactions": true,
+        "sub1": {
+          "name": "Ko Combine",
+          "colour": [180, 0, 120],
+          "prefix": "ISS",
+          "flavour_text": "String",
+          "leader": {
+            "title": false,
+            "leader_name": false,
+            "leader_f_name": false,
+            "leader_l_name": false,
+            "portrait": false
+          }
+        },
+        "sub2": {
+          "name": "Mbaye Gogol",
+          "colour": [180, 0, 120],
+          "prefix": "ISS",
+          "flavour_text": "String",
+          "leader": {
+            "title": false,
+            "leader_name": false,
+            "leader_f_name": false,
+            "leader_l_name": false,
+            "portrait": false
+          }
+        }
+      }
+    },
+    "pirates": {
+      "name": {
+        "short": "Pirates",
+        "long": "The Pirates",
+        "prefix": false,
+        "colour": [255, 0, 0]
+      },
+      "leader": {
+        "title": false,
+        "leader_name": false,
+        "leader_f_name": false,
+        "leader_l_name": false,
+        "portrait": false,
+        "flavour_text": "The League, captain, is everything! It is everything to me, to Gens Hannan. Our excellence blossoms within the freedom of the League. I have earned the fruit and I have built them to towering heights - look upon proud Kazeron. No mere backwater, it is a barycenter of power! \n\n-Reynard Hannan to the player"
+      },
+      "flavour_text": "An alliance formed to counter Hegemony domination of the Sector. Members of the League don't necessarily agree on all issues, domestic or otherwise, and may even come into armed conflict with one another. But the League is united when it comes to the Hegemony who they consider to be illegitimately enforcing martial law in the name of the Domain, a dead political entity. The League, by its laws, unites against other external threats such as particularly meddlesome megacorporations, warlords, and the Luddic Path. \n\nThe Persean League is not intrinsically egalitarian or for individual freedom as-such - the purpose of the League is freedom of the constituent polities with any matters of internal politics of those polities to be left to their own devices. While the Domain might have intervened against the domestic policies of the worlds it ruled, the League specifically forbids such intervention.",
+      "capital": false,
+      "music": {
+        "split_tracks": true,
+        "market": {
+          "market_hostile_0": "Audio File",
+          "market_hostile_1": "Audio File",
+          "market_neutral_0": "Audio File",
+          "market_neutral_1": "Audio File",
+          "market_friendly_0": "Audio File",
+          "market_friendly_1": "Audio File"
+        },
+        "encounter": {
+          "encounter_hostile": "Audio File",
+          "encounter_neutral": "Audio File",
+          "encounter_friendly": "Audio File"
+        }
+      },
+      "graphics": {
+        "flag_big": "Image File",
+        "flag_crest": "Image File"
+      },
+      "subfactions": {
+        "subfactions": true,
+        "sub1": {
+          "name": "Ko Combine",
+          "colour": [180, 0, 120],
+          "prefix": "ISS",
+          "flavour_text": "String",
+          "leader": {
+            "title": false,
+            "leader_name": false,
+            "leader_f_name": false,
+            "leader_l_name": false,
+            "portrait": false
+          }
+        },
+        "sub2": {
+          "name": "Mbaye Gogol",
+          "colour": [180, 0, 120],
+          "prefix": "ISS",
+          "flavour_text": "String",
+          "leader": {
+            "title": false,
+            "leader_name": false,
+            "leader_f_name": false,
+            "leader_l_name": false,
+            "portrait": false
+          }
         }
       }
     }
