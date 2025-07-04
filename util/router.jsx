@@ -12,18 +12,15 @@ const router = createHashRouter([
     children: [
       {
         index: true,
-        element: <Navigate />,
-      },
-      {
-        path: "home",
+        path: "home/",
         element: <Main />,
       },
       {
-        path: "faction",
+        path: "factions/",
         element: <Factions />,
         children: [
           {
-            path: ":faction",
+            path: ":faction/",
             element: <FactionPage data={faction} />,
           },
         ],

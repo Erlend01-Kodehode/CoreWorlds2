@@ -345,11 +345,11 @@
         "colour": [255, 0, 0]
       },
       "leader": {
-        "title": false,
-        "leader_name": false,
-        "leader_f_name": false,
-        "leader_l_name": false,
-        "portrait": false,
+        "title": "Pirate Queen",
+        "leader_name": "Jorien Kanta",
+        "leader_f_name": "Jorien",
+        "leader_l_name": "Kanta",
+        "portrait": "Image Link",
         "flavour_text": "The League, captain, is everything! It is everything to me, to Gens Hannan. Our excellence blossoms within the freedom of the League. I have earned the fruit and I have built them to towering heights - look upon proud Kazeron. No mere backwater, it is a barycenter of power! \n\n-Reynard Hannan to the player"
       },
       "flavour_text": "An alliance formed to counter Hegemony domination of the Sector. Members of the League don't necessarily agree on all issues, domestic or otherwise, and may even come into armed conflict with one another. But the League is united when it comes to the Hegemony who they consider to be illegitimately enforcing martial law in the name of the Domain, a dead political entity. The League, by its laws, unites against other external threats such as particularly meddlesome megacorporations, warlords, and the Luddic Path. \n\nThe Persean League is not intrinsically egalitarian or for individual freedom as-such - the purpose of the League is freedom of the constituent polities with any matters of internal politics of those polities to be left to their own devices. While the Domain might have intervened against the domestic policies of the worlds it ruled, the League specifically forbids such intervention.",
@@ -375,31 +375,72 @@
         "flag_crest": "Image File"
       },
       "subfactions": {
-        "subfactions": true,
+        "subfactions": false,
         "sub1": {
-          "name": "Ko Combine",
-          "colour": [180, 0, 120],
-          "prefix": "ISS",
+          "name": "Pirates",
+          "colour": [255, 0, 0],
+          "prefix": false,
           "flavour_text": "String",
           "leader": {
-            "title": false,
-            "leader_name": false,
-            "leader_f_name": false,
-            "leader_l_name": false,
-            "portrait": false
+            "title": "Pirate Queen",
+            "leader_name": "Jorien Kanta",
+            "leader_f_name": "Jorien",
+            "leader_l_name": "Kanta",
+            "portrait": "Image Link"
           }
+        }
+      }
+    },
+    "luddic_path": {
+      "name": {
+        "short": "Luddic Path",
+        "long": "The Luddic Path",
+        "prefix": false,
+        "colour": [180, 255, 95]
+      },
+      "leader": {
+        "title": "Leading Figure",
+        "leader_name": "Livewell Cotton",
+        "leader_f_name": "Livewell",
+        "leader_l_name": "Cotton",
+        "portrait": "Image Link",
+        "flavour_text": "The League, captain, is everything! It is everything to me, to Gens Hannan. Our excellence blossoms within the freedom of the League. I have earned the fruit and I have built them to towering heights - look upon proud Kazeron. No mere backwater, it is a barycenter of power! \n\n-Reynard Hannan to the player"
+      },
+      "flavour_text": "An alliance formed to counter Hegemony domination of the Sector. Members of the League don't necessarily agree on all issues, domestic or otherwise, and may even come into armed conflict with one another. But the League is united when it comes to the Hegemony who they consider to be illegitimately enforcing martial law in the name of the Domain, a dead political entity. The League, by its laws, unites against other external threats such as particularly meddlesome megacorporations, warlords, and the Luddic Path. \n\nThe Persean League is not intrinsically egalitarian or for individual freedom as-such - the purpose of the League is freedom of the constituent polities with any matters of internal politics of those polities to be left to their own devices. While the Domain might have intervened against the domestic policies of the worlds it ruled, the League specifically forbids such intervention.",
+      "capital": false,
+      "music": {
+        "split_tracks": true,
+        "market": {
+          "market_hostile_0": "Audio File",
+          "market_hostile_1": "Audio File",
+          "market_neutral_0": "Audio File",
+          "market_neutral_1": "Audio File",
+          "market_friendly_0": "Audio File",
+          "market_friendly_1": "Audio File"
         },
-        "sub2": {
-          "name": "Mbaye Gogol",
-          "colour": [180, 0, 120],
-          "prefix": "ISS",
+        "encounter": {
+          "encounter_hostile": "Audio File",
+          "encounter_neutral": "Audio File",
+          "encounter_friendly": "Audio File"
+        }
+      },
+      "graphics": {
+        "flag_big": "Image File",
+        "flag_crest": "Image File"
+      },
+      "subfactions": {
+        "subfactions": false,
+        "sub1": {
+          "name": "Luddic Path",
+          "colour": [180, 255, 95],
+          "prefix": false,
           "flavour_text": "String",
           "leader": {
-            "title": false,
-            "leader_name": false,
-            "leader_f_name": false,
-            "leader_l_name": false,
-            "portrait": false
+            "title": "Leading Figure",
+            "leader_name": "Livewell Cotton",
+            "leader_f_name": "Livewell",
+            "leader_l_name": "Cotton",
+            "portrait": "Image Link"
           }
         }
       }
